@@ -54,9 +54,6 @@ afasia_llm/
 
 ## Requisitos
 
-Instalar las dependencias con:
-
-
 Modelos necesarios disponibles en HuggingFace:
 
 - google/flan-t5-base
