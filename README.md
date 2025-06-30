@@ -1,4 +1,4 @@
-# Afasia LLM: Generador de ejercicios terapéuticos personalizados
+# Language therapy assistant for aphasia using LLMs
 
 Este proyecto implementa un sistema de generación automática de ejercicios de lenguaje adaptados a pacientes con afasia. Combina un enfoque híbrido que integra un banco estructurado de plantillas con generación mediante modelos de lenguaje (LLM), ajustado por contexto clínico (tipo y severidad de afasia) y tópico temático.
 
