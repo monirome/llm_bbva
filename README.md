@@ -3,18 +3,19 @@
 Este proyecto implementa un sistema de generación automática de ejercicios de lenguaje adaptados a pacientes con afasia. Combina un enfoque híbrido que integra un banco estructurado de plantillas con generación mediante modelos de lenguaje (LLM), ajustado por contexto clínico (tipo y severidad de afasia) y tópico temático.
 
 ## Estructura del repositorio
+
+```
 afasia_llm/
-│
-├── exercise_bank.py # Banco de ejercicios estructurado por severidad y tópico
-├── exercise_database.py # Recuperación de ejercicios reales con embeddings (RAG)
-├── generate.py # Función principal de generación (LLM + fallback)
-├── terapeuta_virtual.py # Interfaz Gradio
+├── exercise_bank.py              # Banco de ejercicios estructurado por severidad y tópico
+├── exercise_database.py         # Recuperación de ejercicios reales con embeddings (RAG)
+├── generate.py                  # Función principal de generación (LLM + fallback)
+├── terapeuta_virtual.py         # Interfaz Gradio
 │
 ├── notebook/
-│ └── quality_metrics.ipynb # Evaluación de calidad de los ejercicios generados
+│   └── quality_metrics.ipynb    # Evaluación de calidad de los ejercicios generados
 │
 ├── data/
-  └── exercises.json # Archivo externo con los ejercicios estructurados
+```
 
 ## Componentes
 
@@ -63,8 +64,10 @@ Modelos necesarios disponibles en HuggingFace:
 
 ## Ejemplo de uso por terminal
 
+```
 python generate.py --llm
 --severity "Moderate"
 --type "Broca"
 --topic "shopping"
 -n 5
+```
