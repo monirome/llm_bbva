@@ -12,9 +12,7 @@ afasia_llm/
 ├── terapeuta_virtual.py         # Interfaz Gradio
 │
 ├── notebook/
-│   └── quality_metrics.ipynb    # Evaluación de calidad de los ejercicios generados
-│
-├── data/
+    └── quality_metrics.ipynb    # Evaluación de calidad de los ejercicios generados
 ```
 
 ## Componentes
